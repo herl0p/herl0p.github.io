@@ -4,44 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alan Fidel Hernandez Lopez</title>
+    <style>
+        
+        body {
+            background-color: #336699; 
+            font-family: Arial, sans-serif; 
+            color: #333333;
+        }
+
+        
+        .caja-principal {
+            background-color: white;
+            width: 80%;
+            max-width: 800px;
+            margin: 40px auto; 
+            padding: 30px;
+            border-radius: 15px; 
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3); 
+        }
+
+        
+        h1 {
+            color: #1a4066; 
+            border-bottom: 2px solid #336699; 
+            padding-bottom: 5px;
+        }
+
+        
+        img {
+            border-radius: 10px; 
+            width: 100%;
+            max-width: 400px; 
+            display: block;
+            margin: 15px auto; 
+            border: 2px solid #ccc;
+        }
+
+        
+        a {
+            color: #336699;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            color: #ff6600; 
+            text-decoration: underline;
+        }
+
+        
+        .mi-boton {
+            background-color: #336699;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            display: block;
+            margin: 30px auto 10px auto; 
+        }
+
+        .mi-boton:hover {
+            background-color: #1a4066; 
+        }
+    </style>
 </head>
 <body>
-    <style>
-  body {
-    background-color: #336699; /* Cambia este código por el color que prefieras */
-  }
-</style>
-    <h1>¿Quien soy?</h1>
-    <p>Soy Alan y me gustan la formula 1, cocinar y montar a caballo</p>
-    <img src="imagenes/1.jpeg" alt="1">
-    
-    <h1>¿De donde vengo?</h1>
-    <p>Soy de Xocitlan, Hidalgo</p>
-    <img src="imagenes/2.jpeg" alt="2">
-    
-    
-    <h1>¿Por que estudio tics?</h1>
-    <p>Porque tengo un tio que estudio tics y me ha ayudado a interesarme en esta carrera, pero tambien desde siempre me ha gustado la tecnologia</p>
-    
-    
-    <h1>Mis pasatiempos</h1>
-     <ol>
-        <li>Cocinar</li>
-        <li>Cuidar de los borregos</li>
-        <li>Ver peliculas</li>
-        <li>Montar a caballo</li>
-        <li>Pasar tiempo con mi familia</li>
-        <li>Ir a la CDMX</li>
-    </ol>
-    
-    
-    <h1>Mis top top</h1>
-    <ul>
-        <li><a href="https://vt.tiktok.com/ZSgQ9hjMW/">Tik Tok</a></li>
-        <li><a href="https://vt.tiktok.com/ZSgQ9E2yu/">Cars </a></li>
-        <li><a href="https://www.callofduty.com/mx/es/mobile">Codsito</a></li>
-        <li><a href="https://vt.tiktok.com/ZSgQ97Q66/">Panter</a></li>
-        <li><a href="https://photos.app.goo.gl/BGYiHDo7zumAWTWZ7">Pics</a></li>
-    </ul>
+
+    <div class="caja-principal">
+        <h1>¿Quien soy?</h1>
+        <p>Soy Alan y me gustan la formula 1, cocinar y montar a caballo</p>
+        <img src="imagenes/1.jpeg" alt="1">
+        
+        <h1>¿De donde vengo?</h1>
+        <p>Soy de Xocitlan, Hidalgo</p>
+        <img src="imagenes/2.jpeg" alt="2">
+        
+        <h1>¿Por que estudio tics?</h1>
+        <p>Porque tengo un tio que estudio tics y me ha ayudado a interesarme en esta carrera, pero tambien desde siempre me ha gustado la tecnologia</p>
+        
+        <h1>Mis pasatiempos</h1>
+        <ol>
+            <li>Cocinar</li>
+            <li>Cuidar de los borregos</li>
+            <li>Ver peliculas</li>
+            <li>Montar a caballo</li>
+            <li>Pasar tiempo con mi familia</li>
+            <li>Ir a la CDMX</li>
+        </ol>
+        
+        <h1>Mis top top</h1>
+        <ul>
+            <li><a href="https://vt.tiktok.com/ZSgQ9hjMW/" target="_blank">Tik Tok</a></li>
+            <li><a href="https://vt.tiktok.com/ZSgQ9E2yu/" target="_blank">Cars</a></li>
+            <li><a href="https://www.callofduty.com/mx/es/mobile" target="_blank">Codsito</a></li>
+            <li><a href="https://vt.tiktok.com/ZSgQ97Q66/" target="_blank">Panter</a></li>
+            <li><a href="https://photos.app.goo.gl/BGYiHDo7zumAWTWZ7" target="_blank">Pics</a></li>
+        </ul>
+
+        
+        <button class="mi-boton" onclick="alert('¡Gracias por visitar el perfil de Alan!')">
+            ¡Haz clic aquí para un saludo!
+        </button>
+    </div>
+
 </body>
 </html>
